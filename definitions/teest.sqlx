@@ -1,0 +1,8 @@
+config {
+  type: "table",
+  name: "table_1",
+  tags: ["test_philippe2"]
+}
+
+SELECT 1 as line1
+FROM `dl-website.analytics_190049438.events_20240222` 

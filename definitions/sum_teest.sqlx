@@ -1,0 +1,9 @@
+config {
+  type: "table",
+  name: "table_2",
+  tags: ["test_philippe2"]
+}
+
+SELECT sum(line1) as sum_line1
+FROM 
+  ${ref("table_1")} 
